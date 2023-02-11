@@ -99,7 +99,6 @@ function AddModal(props) {
             <input
               value={title}
               onChange={(e) => setTitle(e.target.value)}
-              autoFocus
               id="title"
               type="text"
               className="bg-white border-2 hover:border-blue-300 border-gray-300 rounded-lg outline-blue-300 block w-full md:p-3 p-1.5 mb-5"
